@@ -63,7 +63,7 @@ function App() {
   const [favorites, setFavorites] = useState([]);
   const [searchValue, setSearchValue] = useState('');
   const [cartOpened, setCartOpened] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] =  useState(true);
 
   //Получаем кросовки с бэкенда. Этот запрос будет только при первом рендере
   useEffect(() => {
